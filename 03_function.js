@@ -28,3 +28,14 @@ function swapVariable(valueOne,valueTwo){//arguments
 }
 swapVariable(numOne,numTwo);
 swapVariable(name1,name2);
+
+console.log("---------------------------------------------------");
+
+function addition(num1,num2){
+  var result=num1+num2;//result=300
+  return result;
+}
+var returnValue =addition(100,200);
+console.log("Addition of number is:",returnValue);
+var returnValue =addition(890.400,600.3456);
+console.log("Addition of number is:",returnValue);

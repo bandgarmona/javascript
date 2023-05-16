@@ -92,10 +92,5 @@ var stringHandsOn=function(){
 
      var z=7*7;
      console.log("Square of 7 is:",z);
-
-
-
-
-
 }
 stringHandsOn();

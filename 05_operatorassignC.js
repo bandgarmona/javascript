@@ -5,7 +5,7 @@ console.log("Function Expression with no return value to check TCS interview Eli
 console.log("--------------------------------------------");
 
 var tcs=function tcsEligibility(gradScore,hscScore,sscScore,candidateName){
-    var result=(gradScore>=70 && hscScore>=80 && sscScore>=90) ? `Congrates ${candidateName} you are Eligible for TCS Interview.` : `${candidateName} you are not Eligibie for TCS Interview.`;
+    var result=(gradScore>=70 && hscScore>=80 && sscScore>=90) ? `Congrates ${candidateName} you are Eligible for TCS Interview.` : `Unfortunately ${candidateName} you are not Eligibie for TCS Interview.`;
     console.log(result);
 }
 console.log("Candidate Name=Monali");

@@ -83,3 +83,65 @@ console.log(arrayRollNumber);
 var arrayRollNumber=[67,56,78,99,80];
 arrayRollNumber.splice(1,1,99,88,77,66)
 console.log(arrayRollNumber);
+
+
+
+console.log('===Traversing Array===');
+
+
+var arrayName=["Anil","Siya","Ram","Sunil","Jenny"];
+for (let index = 0; index < arrayName.length; index++) {
+    const element = arrayName[index];
+    //if (element.startsWith("S")) {
+        console.log(element);
+        
+   // }
+}
+    
+console.log('--------------for in loop-----------------');
+
+for (const index in arrayName){
+           console.log(arrayName[index]);
+    }
+
+
+    console.log('--------------for of loop-----------------');
+
+for (const index of arrayName){
+           console.log(arrayName[index]);
+    }
+
+
+
+console.log("WAP to get even indexed element");
+    var arrayName=["Anil","Siya","Ram","Sunil","Jenny"];
+     for(const index in arrayName){
+        if (index%2==0){
+            console.log(`${arrayName[index]}`);
+        }
+     }
+
+     const arrayBoy=["Anil","Ram","Sunil"];
+     let arrayGirl=["Siya","Jenny"];
+     let combineArray=arrayBoy+arrayGirl;
+     console.log(combineArray);
+
+     let concatArray=arrayBoy.concat(arrayGirl);
+     console.log(concatArray);
+
+
+     console.log('--------- Resize an Array ------');
+     var arrayName=["Anil","Siya","Ram","Sunil","Jenny"];
+     arrayName.length=3;
+     console.log(arrayName);
+
+     console.table(arrayName);
+
+     console.log("Spread Operator...");
+     var arrayName=["Anil","Siya","Ram","Sunil","Jenny"];
+     console.log(arrayName);
+     console.log(...arrayName);
+
+     //Creating duplicate array
+     const newArray=[...arrayName];
+     console.log(newArray);

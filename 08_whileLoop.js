@@ -1,5 +1,5 @@
-//WAP to print number from 1 to 10
-let i=0;//initialization
+console.log("WAP to print number from 1 to 10");
+let i=1;//initialization
 while (i<=10) {//condition
     console.log(i);
     i=i+1;

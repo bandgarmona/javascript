@@ -7,11 +7,11 @@ var square=function(){
     console.log("Square of number 5 is:",a);
 
     var b=6*6;
-    console.log("Square of number 6 is:",b)
+    console.log("Square of number 6 is:",b);
     var c=25*25;
-    console.log("Square of number 25 is:",c)
+    console.log("Square of number 25 is:",c);
     var d=100*100;
-    console.log("Square of number 100 is:",d)
+    console.log("Square of number 100 is:",d);
 }
 square();
 

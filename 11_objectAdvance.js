@@ -4,7 +4,7 @@ let person={
     city:"Pune",
     age:54,
     isMarried:true
-}
+}           
 
 const keys=Object.keys(person);
 console.log(keys);

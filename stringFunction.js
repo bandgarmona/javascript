@@ -13,7 +13,7 @@ function stringHandsOn(){
 
     console.log("------------------------------------------------------");
     
-    console.log("3.Remove the leading and trailing extra spaces and log string on consolewith its length");
+    console.log("3.Remove the leading and trailing extra spaces and log string on console with its length");
     var trimmedGivenString=givenString.trim();
     console.log("After Trimmed String:",trimmedGivenString,trimmedGivenString.length);
 
@@ -65,12 +65,6 @@ function stringHandsOn(){
     console.log("10.Check, is String Starts With Word Hey After trimming");
     var stringStartsWith=trimmedGivenString.startsWith("Hey");
     console.log("string starts with Hey:",stringStartsWith);
-
-
-
-
-    
-
 }
 stringHandsOn();
 
